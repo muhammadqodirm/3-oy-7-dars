@@ -1,0 +1,224 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.container {
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.header__container {
+  height: 70px;
+  background: rgb(107, 107, 107);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__container ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header__container ul li a {
+  color: rgb(255, 255, 255);
+  transition: all 0.5s;
+}
+
+.header__container ul li a:hover {
+  color: rgb(193, 192, 192);
+}
+
+.main__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 500px;
+  background: rgb(235, 235, 235);
+}
+
+.main__container .btn h1 {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.main__container .btn p {
+  height: 52px;
+}
+
+.main__container .btn {
+  width: 576px;
+  height: 207px;
+}
+
+.main__container .btn button {
+  width: 357px;
+  height: 50px;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  border: none;
+  transition: all 0.5s;
+}
+
+.main__container .btn button:hover {
+  background: rgb(172, 168, 168);
+  color: #fff;
+}
+
+.aside__container {
+  height: 152px;
+  background: rgb(211, 211, 211);
+}
+
+.aside__container ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.nav__container .btn-one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.summary__container {
+  height: 806px;
+  background: rgb(235, 235, 235);
+  padding-top: 70px;
+}
+
+.summary__container .tip {
+  margin-left: 35%;
+}
+
+.summary__container .tip h1 {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0%;
+  padding-left: 180px;
+}
+
+.summary__container .tip p {
+  margin-right: 150px;
+}
+
+.summary__container .tip img {
+  margin-left: 90px;
+}
+
+.summary__container .tip p span {
+  color: rgb(119, 119, 119);
+  margin-left: 40px;
+}
+
+.summary__container .tip p span .layout {
+  padding-left: 100px;
+}
+
+.summary__container .tip-one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.summary__container .tip-one .step {
+  width: 364px;
+  height: 316px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+  background: rgb(255, 255, 255);
+  padding-top: 30px;
+}
+
+.summary__container .tip-one .step h3 {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.summary__container .tip-one .step img {
+  padding-left: 37%;
+  padding-top: 31px;
+}
+
+.summary__container .tip-one .step p {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.summary__container .tip-one .step p button {
+  border-radius: 2px;
+  background: rgb(59, 121, 195);
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.article__container {
+  height: 450px;
+}
+
+.article__container .tips-one .tips-two {
+  width: 298px;
+  height: 333px;
+}
+
+.article__container .tips-one .tips-two h3 {
+  padding-top: 30px;
+}
+
+.article__container .tips-one .tips-two p {
+  padding-top: 13px;
+}
+
+.article__container .tips-one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__container {
+  height: 50px;
+  background: rgb(17, 17, 17);
+}
+
+.footer__container p {
+  padding-top: 15px;
+  color: rgb(119, 119, 119);
+}
